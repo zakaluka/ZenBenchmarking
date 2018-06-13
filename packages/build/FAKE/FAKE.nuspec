@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FAKE</id>
+    <version>5.0.0</version>
+    <authors>Steffen Forkmann, Mauricio Scheffer, Colin Bull, Matthias Dittrich</authors>
+    <owners>Steffen Forkmann, Mauricio Scheffer, Colin Bull, Matthias Dittrich</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/fsharp/FAKE/blob/d86e9b5b8e7ebbb5a3d81c08d2e59518cf9d6da9/License.txt</licenseUrl>
+    <projectUrl>https://github.com/fsharp/Fake</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/fsharp/FAKE/fee4f05a2ee3c646979bf753f3b1f02d927bfde9/help/content/pics/logo.png</iconUrl>
+    <description>FAKE - F# Make - is a build automation tool for .NET. Tasks and dependencies are specified in a DSL which is integrated in F#. This package bundles all extensions.</description>
+    <summary>FAKE - F# Make - Get rid of the noise in your build scripts.</summary>
+    <releaseNotes>Deep integration into the .NET SDK and .Net Core
+Global dotnet cli-tool `dotnet tool install fake-cli -g --version 5.0.0-*`
+`dotnet-fake` cli tool via `DotNetCliToolReference`
+Standalone `.zip` xcopy deployment and various package manager integrations (for example chocolatey).
+The old runner (`FAKE` nuget package) is obsolete
+FakeLib and FAKE.Deploy are obsolete - https://github.com/fsharp/FAKE/issues/1820
+Clean and modularized API - A lot of stuff is obsolete now as it moved to a different location and will be removed with version 6
+Feature to import fake modules - https://fake.build/fake-fake5-modules.html
+Migration guide - https://fake.build/fake-migrate-to-fake-5.html
+New and clean CLI interface - https://fake.build/fake-commandline.html
+`build.sh` and `build.cmd` are no longer required
+Modules can be used in regular projects
+You can extend FAKE more easily - https://fake.build/fake-fake5-custom-modules.html
+API Guideline - https://fake.build/contributing.html#API-Design
+Improved F# scripting support including support for command-line arguments
+Learn more - https://fake.build/fake-fake5-learn-more.html</releaseNotes>
+    <language>en-US</language>
+    <tags>build, fake, f#</tags>
+  </metadata>
+</package>
